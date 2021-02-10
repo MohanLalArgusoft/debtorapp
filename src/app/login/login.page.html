@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Debtor App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <form [formGroup]="loginForm"  name="loginForm">
+    <ion-list lines="full" class="ion-no-margin ion-no-padding">
+      <ion-item>
+        <ion-label position="stacked">Username <ion-text color="danger">*</ion-text>
+        </ion-label>
+        <ion-input type="date" formControlName="dob" placeholder=""></ion-input>
+
+      </ion-item>
+    </ion-list>
+    <div class="ion-padding">
+      <ion-button expand="block" type="submit" [disabled]="this.loginForm.invalid" class="ion-no-margin"
+        (click)="login()">Login</ion-button>
+    </div>
+  </form>
+
+</ion-content>
