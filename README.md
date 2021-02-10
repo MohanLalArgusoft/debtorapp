@@ -1,4 +1,4 @@
-# eaapp
+# debtorapp
 Debtor-app
 
 Example URL:-
