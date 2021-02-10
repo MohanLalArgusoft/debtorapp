@@ -1,0 +1,7 @@
+{
+  "name": "debtorapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
