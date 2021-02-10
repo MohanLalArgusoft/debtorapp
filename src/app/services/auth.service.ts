@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import { SERVER_URL } from '../../environments/environment';
 
 @Injectable({
     providedIn: 'root'
@@ -12,7 +12,7 @@ export class AuthService {
     ) { }
 
     authenticate(debtor_id, debtor_dob) {
-        const apiURL = 'http://production.dcd.local:8081/b/system/v1/session/debtor_login';
+        const apiURL = SERVER_URL + 'b/system/v1/session/debtor_login';
         const data = {
             debtor_id: debtor_id,
             debtor_dob: debtor_dob
