@@ -2,7 +2,7 @@
   "name": "debtorapp",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "https://MohanLalArgusoft.github.io/debtorapp/",
+  "homepage": "https://mohanlalargusoft.github.io/debtorapp/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
