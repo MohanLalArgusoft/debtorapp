@@ -5,6 +5,7 @@
   "homepage": "https://mohanlalargusoft.github.io/debtorapp/",
   "scripts": {
     "ng": "ng",
+    "ionic:build:prod": "ionic-app-scripts build -- --prod",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -28,7 +29,9 @@
     "zone.js": "~0.10.2",
     "typescript": "~4.0.2",
     "@ionic/app-scripts": "3.2.1",
-    "@ionic/cli": "6.12.3",
+    "@ionic/cli": "6.12.3"
+  },
+  "devDependencies": {
     "@angular/cli": "~11.0.5",
     "@angular-devkit/build-angular": "~0.1100.5",
     "@angular/compiler": "~11.0.5",
@@ -52,6 +55,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0"
   },
-  "devDependencies": {},
   "description": "An Ionic project"
 }
